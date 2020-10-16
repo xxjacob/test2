@@ -19,3 +19,14 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: ./gradlew build
+      
+  side-viewer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 说hello
+        run: |
+          echo hello 你好
+      
+      - name: second hello
+        run: |
+          echo hello second
